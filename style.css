@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(./fonts/Roboto-Regular.ttf);
+    font-weight: normal; 
+  font-style: normal; 
+}
+
+@font-face {
+    font-family: "Terserah";
+    src: url(./fonts/Terserah.otf);
+    font-weight: normal; 
+  font-style: normal; 
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.img{
+    flex: 1;
+    background-image: url('https://preview.redd.it/minimal-background-v0-s6k98zci4ae81.jpg?width=1080&crop=smart&auto=webp&s=8a0b3a955e759fd537a3920666273ce7951a545e');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+
+.text{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    
+}
+
+.greeting-message{
+    margin-top: 140px;
+    padding-left: 50px;
+    font-family: Roboto-Regular;
+    font-size: 2rem;
+    padding-right: 20px;
+}
+
+
+.button{
+    margin-top: 24px;
+    padding-left: 50px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 1px 2px;
+    border-radius: 2%;
+    background-color: #EAE4D5;
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+
+
+.form-first-row label{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-family: Roboto-Regular;
+}
+
+.form-second-row label{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-family: Roboto-Regular;
+}
+
+input {
+  width: 200px; 
+  height: 20px; 
+  font-size: 16px; 
+}
+
+.outside{
+    padding-left: 50px;
+}
+
+.inside{
+    display: flex;
+}
+
+.form-first-row{
+    flex: 1;
+    
+}
+
+.form-second-row{
+    flex: 1;
+    margin-right: 700px;
+}
+
+.button{
+    margin-top: 35px;
+}
+
+
+button{
+    background-color: #B6B09F;
+    width: 200px;
+    height: 40px;
+    border-radius: 5%;
+    font-size: 1rem;
+    font-family: Roboto-Regular;
+    font-weight: 700;
+    color: white;
+}
+
+.form-title{
+    font-family: Roboto-Regular;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.logo{
+    height: 30vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.background{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    background: rgba(0,0,0,0.8);
+}
+
+
+.background h1 {
+    font-size: 3rem;
+    color: white;
+    font-family: Terserah;
+    align-self: center; 
+    margin-right: 100px;
+}
+
+.account{
+    color: black;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Roboto-Regular;
+}
+
+
+.footer {
+    color: black;
+    width: 35vh;
+    padding-top: 620px;
+    padding-left: 200px;
+    font-family: Roboto-Regular;
+}
+
+
+.link{
+    color: black;
+}
+
+input:invalid {
+    border-color: #800000;
+    border-width: 2px;
+}
+
+input:focus{
+    border-color: black;
+    border-width: 2px;
+    box-shadow: 10px 5px 5px black;
+
+}
+
+
